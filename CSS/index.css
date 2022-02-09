@@ -1,0 +1,252 @@
+/*Variáveis*/
+:root {
+    --bgSite: #d7d4ff;
+    --buttonColor: #6c63ff;
+  
+    --white: #ffffff;
+    --white300: #f9f9f9;
+  
+    --title: #2b2b2b;
+    --text: #555555;
+  }
+  
+  /*Reset*/
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    font-size: 1.6rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+  ul,
+  ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  button,
+  input {
+    border: 0;
+  }
+  button:focus,
+  input:focus {
+    border: 0;
+  }
+  
+  .home{
+
+    background-color: var(--bgSite);
+    
+    height: 400px;
+    width: 1360px;
+    left: 0px;
+    top: 0px;
+
+
+    
+  }
+.text-home #home1{
+    position: absolute;
+    height: 95px;
+    width: 349px;
+    left: 101px;
+    top: 137.5px;
+
+}
+  .text-home #home2{  
+    position: absolute;  
+    height: 96px;
+    width: 389px;
+    left: 100px;
+    top: 220px;
+    font-size: 16px;
+ 
+    
+    
+  }
+
+  .img{
+      position: absolute;
+      width: 30%;
+      left: 800px;
+      top: 50px;
+  }
+
+ .button-home{
+    position: absolute;
+    height: 50px;
+    width: 155px;
+    left: 101px;
+    top: 291px;
+    background-color: var(--buttonColor);
+    color: var(--white);
+    border-radius: 10px;
+    font-size: 20px;
+
+  }
+
+  .conteudo{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .publi{
+    width: 900px;
+    padding: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    
+    }
+
+    .publi .card{
+       
+        max-width: 300px;
+        height: 200px;
+        position: relative;
+        margin: 30px 10px;
+        padding: 20px 15px;
+        border-radius: 5px;
+        flex-direction: column;
+        transition: 0.3s ease-in-out;
+        background-color: var(--bgSite);
+
+    }
+
+    .publi .card:hover{
+        height: 300px;
+
+    }
+
+    .publi .card .cor{
+        position: relative;
+        width: 270px;
+        height: 150px;
+        top: -50px;
+        z-index: 1;
+        background-color: red;
+      
+    }
+    .publi .card .cor1{
+        position: relative;
+        width: 270px;
+        height: 150px;
+        top: -50px;
+        z-index: 1;
+        background-color: rgb(29, 189, 230);
+      
+    }
+
+    .publi .card .cor3{
+        position: relative;
+        width: 270px;
+        height: 150px;
+        top: -50px;
+        z-index: 1;
+        background-color: rgb(167, 25, 211);
+      
+    }
+    
+
+    .publi .card .texto{
+        position: relative;
+        margin-top: -50px;
+        text-align: center;
+        padding: 10px;
+        color: black;
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+ 
+    }
+
+    .publi .card:hover .texto{
+        visibility: visible;
+        transition-delay: 0.3s;
+        cursor: pointer;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  footer{
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+     text-align: center;
+     font-size: 20px;
+  }
+
