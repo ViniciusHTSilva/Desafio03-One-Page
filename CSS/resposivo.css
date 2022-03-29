@@ -38,10 +38,25 @@
   }
 
 @media screen and  (max-width: 578px) {
-.footer {
- width: 100%;
-  height: 100%;
-
+.pesquisa-nome{
+left:10px;
 }
+
+.pesquisa-email{
+left:10px;
+}
+
+.pesquisa-telefone{
+left:10px;
+}
+
+.pesquisa-msg{
+left:10px;
+}
+
+.envi{
+Width: 70%;
+}
+
 
  }
