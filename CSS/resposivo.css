@@ -1,4 +1,4 @@
-@media screen and  (max-width: 600px) {
+@media screen and  (max-width: 578px) {
     .home{
   width: 100%;
   height: 800px;
@@ -28,7 +28,7 @@
 
  }
 
- @media screen and  (max-width: 600px) {
+ @media screen and  (max-width: 578px) {
 
     .conteudo, .conteudo2{
         display: flex;
