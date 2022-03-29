@@ -37,23 +37,24 @@
  }
 
 .pesquisa-nome{
-left:10px;
+left:30px;
 }
 
 .pesquisa-email{
-left:10px;
+left:30px;
 }
 
 .pesquisa-telefone{
-left:10px;
+left:30px;
 }
 
 .pesquisa-msg{
-left:10px;
+left:30px;
 }
 
-.envi{
-Width: 70%;
+
+.button-envi{
+width:250px
 }
   }
 
