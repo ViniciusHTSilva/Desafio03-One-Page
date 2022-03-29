@@ -35,6 +35,26 @@
        flex-direction: column;
         align-items: center;
  }
+
+.pesquisa-nome{
+left:10px;
+}
+
+.pesquisa-email{
+left:10px;
+}
+
+.pesquisa-telefone{
+left:10px;
+}
+
+.pesquisa-msg{
+left:10px;
+}
+
+.envi{
+Width: 70%;
+}
   }
 
 
