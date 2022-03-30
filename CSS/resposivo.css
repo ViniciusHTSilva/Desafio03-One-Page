@@ -35,6 +35,12 @@
 
  @media screen and  (max-width: 578px) {
 
+    .search-msg{
+        left: 10px;
+        width: 300px;
+       
+
+    }
     .conteudo, .conteudo2{
         display: flex;
        flex-direction: column;

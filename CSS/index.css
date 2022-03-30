@@ -305,6 +305,23 @@
   font-size: 20px;
 
 }
+.search-msg{
+  position: absolute;
+  left: 20px;
+  width: 390px;
+  height: 130px;
+  top: 10px;
+  text-align: initial;
+  border: none;
+  background-color: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: var(--text);
+  font-size: 20px;
+  left: 20px;
+
+}
 
 .button-envi{
   position: absolute;
