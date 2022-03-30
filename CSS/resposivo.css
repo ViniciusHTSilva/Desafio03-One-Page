@@ -8,14 +8,14 @@
 .text-home #home1{
     position: absolute;
     height: 95px;
-    width: 300px;
+    width: 350px;
     left: 10px;
 }
  
  .text-home #home2 {
     left: 10px;
     height: 95px;
-    width: 300px;
+    width: 350px;
  }
 .button-home{
     left: 10px;
