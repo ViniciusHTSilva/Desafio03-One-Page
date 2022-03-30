@@ -1,4 +1,4 @@
-@media screen and  (max-width: 600px) {
+@media screen and  (max-width: 478px) {
     .home{
   width: 100%;
   height: 800px;
@@ -28,11 +28,17 @@
 
  }
 
- @media screen and  (max-width: 600px) {
+ @media screen and  (max-width: 478px) {
 
     .conteudo, .conteudo2{
         display: flex;
        flex-direction: column;
         align-items: center;
  }
+
+.pesquisa-nome{ 
+Text-align: 30px;
+}
   }
+
+
